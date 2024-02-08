@@ -9,10 +9,12 @@
 .logo{
     width: 600px;
     float: left;
+    margin-top: 20px;
 }
 .menu{
     width: 600px;
     float: left;
+    margin-top: 20px;
 }
 .menu ul li{
     display: inline;
@@ -28,23 +30,26 @@
 }
 .home{
     border-bottom: 2px solid rgb(67, 82, 219);
+    overflow: hidden;
     
 }
 /* -----------Hero Section Start-------------- */
 .hero-section{
-    height: 400px;
+    width: 1250px;
     margin-right: 6rem;
     margin-left: 6rem;
+    overflow: hidden;
+    
 }
 .hero-right{
-    width: 1250px;
+    width: 600px;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
     margin-top: 70px; 
-}
-.hero-right{
-    width: 625px;
+    float: left;
+    overflow: hidden;
+    
 }
 .hello{
     font-size: 30px;
@@ -78,6 +83,15 @@
     font-size: 18px;
     font-weight: bold;
 }
+.hero-left{
+    width: 570px;
+    float: left;
+    overflow: hidden;
+}
+.hero-left img{
+    width: 100%;
+}
+
 .hire-me a{
     color: #fff;
     font-size: 18px;
@@ -103,26 +117,11 @@
     color: rgb(77 77 78);
 }
 
-/* Services section CSS */
 
-/* services.css */
+/* ------------About Section Start---------- */
 
-.services-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+.about{
+    background-color: hsl(264deg 45.45% 97.84%);
+    
 }
 
-.service {
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-.service h3 {
-    margin-top: 0;
-}
-
-.service p {
-    margin-bottom: 0;
-}
