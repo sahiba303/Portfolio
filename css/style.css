@@ -1,10 +1,10 @@
 /* -----------Header Section Start--------------- */
 
 .nav{
-    width: 1250px;
-    height: 80px;
-    margin-right: 6rem;
-    margin-left: 6rem;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 .logo{
     width: 600px;
@@ -35,13 +35,13 @@
 }
 /* -----------Hero Section Start-------------- */
 .hero-section{
-    width: 1250px;
-    margin-right: 6rem;
-    margin-left: 6rem;
-    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+    margin-left: 50px;
     
 }
-.hero-right{
+.hero-left{
     width: 600px;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -60,10 +60,11 @@
 .noun{
     color: hsl(261.73deg 98.99% 61.18%);
 }
-.designer{
-    border-bottom: 5px solid hsl(261.43deg 21.43% 61.57%);;
+.developer{
+    border-bottom: 5px solid hsl(261.43deg 21.43% 61.57%);
+    opacity: 1px;
 }
-.hero-right-text h1{
+.hero-left-text h1{
     font-size: 55px;
     font-family: "Roboto", sans-serif;
     margin-top: 10px;
@@ -73,55 +74,70 @@
     background-color: hsl(261.73deg 98.99% 61.18%);
     border: 1px solid hsl(261.73deg 98.99% 61.18%);
     border-radius: 3px;
+    cursor: pointer;
 }
 .portfolio{
     background-color: #fff;
     border: 2px solid hsl(261.73deg 98.99% 61.18%);
     border-radius: 3px;
+    cursor: pointer;
 }
 .portfolio a{
     font-size: 18px;
     font-weight: bold;
+    color: hsl(261.73deg 98.99% 61.18%);
 }
-.hero-left{
-    width: 570px;
-    float: left;
-    overflow: hidden;
-}
-.hero-left img{
-    width: 100%;
-}
-
 .hire-me a{
     color: #fff;
     font-size: 18px;
     font-weight: bold;
 }
-.hero-right-text p{
+.hero-left-text p{
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     line-height: 25px;
 }
-.hero-right-buttons{
+.hero-left-buttons{
     margin-top: 50px;
 }
-.hero-right-buttons button{
+.hero-left-buttons button{
     padding: 14px 40px 14px 40px;
 }
-.hero-right-buttons a{
+.hero-left-buttons a{
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
 }
-.hero-right-text p{
+.hero-left-text p{
     color: rgb(77 77 78);
 }
+.hero-right{
+    width: 600px;
+    float: left;
+    display: flex;
+}
+.hero-img img{
+    margin-left: -420px;
+}
+
+
 
 
 /* ------------About Section Start---------- */
 
 .about{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
     background-color: hsl(264deg 45.45% 97.84%);
-    
+}
+.about-content{
+    margin-top: 100px;
+}
+.about-content span{
+    color: hsl(261.73deg 98.99% 61.18%);
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
 }
 
