@@ -141,3 +141,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+
+
+/* What we do  */
+
+.WhatWeDo {
+    display: flex;
+}
