@@ -117,8 +117,11 @@
     display: flex;
 }
 .hero-img img{
-    margin-left: -420px;
+    margin-left: -335px;
 }
+
+
+
 
 
 
@@ -128,17 +131,30 @@
 .about{
     margin-top: 100px;
     display: flex;
-    justify-content: center;
     height: 600px;
     background-color: hsl(264deg 45.45% 97.84%);
 }
 .about-content{
     margin-top: 100px;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.about-box1 img{
+    object-fit: cover;
+    position: absolute;
+    bottom: -552px;
+   
 }
 .about-content span{
     color: hsl(261.73deg 98.99% 61.18%);
     font-weight: bold;
     font-family: "Roboto", sans-serif;
+}
+.about-box{
+    width: 150px;
+    height: 250px;
+    border: 2px dashed hsl(261.73deg 98.99% 61.18%);
 }
 
 
