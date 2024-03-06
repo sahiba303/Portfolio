@@ -1,5 +1,8 @@
 /* -----------Header Section Start--------------- */
-
+body{
+    height: 100%;
+    background-color: hsl(264deg 45.45% 97.84%);
+}
 .nav{
     display: flex;
     justify-content: space-around;
@@ -37,8 +40,7 @@
 .hero-section{
     display: flex;
     justify-content: space-around;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin: 0px 50px;
     
 }
 .hero-left{
@@ -111,13 +113,26 @@
 .hero-left-text p{
     color: rgb(77 77 78);
 }
+.hero-img1{ 
+    position: relative;
+    margin: auto;
+}
+.hero-img1 img{
+    margin-top: 60px;
+}
+.hero-img{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
 .hero-right{
     width: 600px;
-    float: left;
     display: flex;
 }
 .hero-img img{
-    margin-left: -335px;
+    margin-left: 150px;
 }
 
 
@@ -131,36 +146,368 @@
 .about{
     margin-top: 100px;
     display: flex;
+    width: 100%;
     height: 600px;
-    background-color: hsl(264deg 45.45% 97.84%);
 }
 .about-content{
-    margin-top: 100px;
-    text-align: center;
-    margin-right: 50px;
-    margin-left: 50px;
+    width: 100%;
+    margin: 0px 50px;
 }
-.about-box1 img{
-    object-fit: cover;
-    position: absolute;
-    bottom: -552px;
-   
+.about-headings{
+    text-align: center;
+    margin-top: 80px;
 }
 .about-content span{
     color: hsl(261.73deg 98.99% 61.18%);
     font-weight: bold;
     font-family: "Roboto", sans-serif;
 }
+.about-box h2{
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.about-boxes{
+    margin-top: 50px;
+}
+
 .about-box{
     width: 150px;
     height: 250px;
     border: 2px dashed hsl(261.73deg 98.99% 61.18%);
+    position: absolute;
+}
+.about-box1{
+   position: absolute;
+}
+
+.about-box1 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+   
 }
 
 
 
-/* What we do  */
+/* Services Section Here */
 
-.WhatWeDo {
+.services{
+    margin-top: 100px;
     display: flex;
+    width: 100%;
+    height: 600px;
 }
+.services-content{
+    width: 100%;
+    margin: 0px 50px;
+}
+.services-headings{
+    text-align: center;
+    margin-top: 80px;
+}
+.services-headings span{
+    color: hsl(261.73deg 98.99% 61.18%);
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.services-headings h2{
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+}
+.services-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.WWD-Card{
+    width: 380px;
+    height: 350px;
+    margin-right: 40px;
+    background-color: hsl(261.73deg 98.99% 61.18%);
+}
+.wwd-content h3{
+    padding: 20px;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+.wwd-content p{
+    padding: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: -50px;
+}
+.button{
+    margin: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    border: none;
+    font-weight: bold;
+    background-color: hsl(261.73deg 98.99% 61.18%);
+}
+.button1{
+    margin: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #a19d9d;
+    border: none;
+    font-weight: bold;
+    background-color: #fff;
+}
+.WWD-Card1{
+    width: 380px;
+    height: 350px;
+    margin-right: 40px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
+.WWD-Card1:last-child{
+    margin-right: 0px;
+}
+
+
+/* Work Section Here */
+
+.work{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.work-content{
+    width: 100%;
+   
+}
+.work-headings{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px
+}
+.work-content span{
+    color: hsl(261.73deg 98.99% 61.18%);
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.work-box h2{
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.work-images{
+    display: flex;
+    margin: 0px 52px 25px 52px;
+}
+.work-images img{
+    margin-right: 45px
+}
+.work-images .image1{
+    margin-right: 0px;
+}
+
+
+/* Section Hire Me */
+
+.Hiring{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: hsl(261.73deg 98.99% 61.18%);
+    justify-content: center;
+}
+.sm-box{
+    width: 80%;
+    height: 250px;
+    background-color: #fff;
+    margin-top: 175px;
+}
+.sm-box{
+    text-align: center;
+}
+.sm-box h2{
+    margin-top: 80px;
+    font-size: 36px;
+} 
+.contact{
+    padding: 16px 40px;
+    background-color: hsl(261.73deg 98.99% 61.18%);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 3px;
+
+}
+
+/* Section Ratios */
+
+.ratios{
+    margin-top: 150px;
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+.values{
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+.ratio1{
+    margin: auto;
+}
+.values{
+    text-align: center;
+}
+.values h2{
+    font-size: 50px;
+    margin: 0px 0px;  
+}
+.values p{
+    font-size: 17px;
+}
+
+/* Testimonial Section Here */
+
+.testimonial{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+
+}
+.test-img img{
+    object-fit: cover;
+}
+.test-content{
+    display: flex;
+    flex-direction: column;
+}
+.test-headings{
+    margin-top: 80px;
+    padding: 0px 0px 0px 20px;
+}
+.test-headings span{
+    color: hsl(261.73deg 98.99% 61.18%);
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.test-headings h2{
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.test-box{
+    width: 650px;
+    height: 350px;
+    background-color: #fff;
+    margin-left: -100px;
+    margin-top: 30px;
+}
+.test-box p{
+    font-size: 18px;
+    line-height: 33px;
+    padding: 20px;
+    color: #6d6464;
+    margin-bottom: 50px;
+}
+.test-box .soft-dev{
+    font-size: 16px;
+    margin-top: 0px;
+}
+.test-box h5{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: -25px;
+    margin-bottom: -20px;
+    
+}
+.test-sm-box{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+
+/*  Section Video Here */
+
+.video{
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/vid-img.jpg);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.video-icon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.vid-icon-img img{
+    margin-top: 250px;
+}
+.color-lay{
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    background: rgb(149, 149, 168);
+    margin-bottom: 100px;
+}
+
+/* .Section Get In Touch Here  */
+
+.git{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+}
+.info{
+    width: 60%;
+    height: 250px;
+    background-color: #fff;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.info span{
+    color: hsl(261.73deg 98.99% 61.18%);
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.info h2{
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    color: #a19d9d;
+    margin-top: 50px;
+}
+
+/* Footer Section Here  */
+
+.footer{
+    margin-top: 100px;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    background-color: hsl(266, 10%, 86%);
+
+}
+.footer-logo{
+    width: 85%;
+    padding-left: 70px;
+    padding-top: 15px;
+}
+.footer-text{
+    width: 15%;
+    padding-top: 40px;
+    padding-right: 50px;
+}
+.footer-text span{
+    color: hsl(261.73deg 98.99% 61.18%);
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+
+}
+
